@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Assignment</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href=".\style.css">
+<script src=".\script.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<body>
+    <div>
+        <div class="row">
+            <div id="accordion" role="tablist" aria-multiselectable="true">
+                <div>
+                    <div class="col-md-12 col-sm-12 visible-xs visible-sm">
+                        <p>
+                            <button data-parent="#accordion" class="btn btn-primary btn-lg btn-block" type="button"
+                                data-toggle="collapse" data-target="#collapse1" aria-expanded="false"
+                                aria-controls="collapse1">
+                                <h3>Title 1</h3>
+                            </button>
+                        </p>
+                    </div>
+                    <div id="collapse1" class="div-collapse collapse col-md-6">
+                        <span class="box-1"></span>
+                        <h3 class="header-1">Title 1 </h3>
+                        <hr class="line-1">
+                        <p class=" text-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
+                            dignissimos unde nemo sed necessitatibus vitae ipsum, maxime quaerat dolorum doloremque
+                            quibusdam vel mollitia inventore sequi, quam deleniti quidem sunt? Similique.maxime quaerat
+                            dolorum doloremque quibusdam vel mollitia inventore sequi, quam deleniti quidem sunt?
+                            Similique</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="col-md-12 col-sm-12 visible-xs visible-sm ">
+                        <p>
+                            <button data-parent="#accordion" class="btn btn-primary btn-lg btn-block" type="button"
+                                data-toggle="collapse" data-target="#collapse2" aria-expanded="false"
+                                aria-controls="collapse2">
+                                <h3>Title 2</h3>
+                            </button>
+                        </p>
+                    </div>
+                    <div id="collapse2" class="div-collapse collapse col-md-6">
+                        <span class="box-2" onclick="onButtonClick('box02')"></span>
+                        <h3 class="header-2">Title 2</h3>
+                        <hr class="line-2">
+                        <p class="text-2  hide" id="box02">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Soluta dignissimos unde nemo sed necessitatibus vitae ipsum, maxime quaerat dolorum
+                            doloremque quibusdam vel mollitia inventore sequi, quam deleniti quidem sunt?
+                            Similique.quibusdam vel mollitia inventore sequi, quam deleniti quidem sunt?
+                            Similique.quibusdam vel mollitia inventore sequi, quam deleniti quidem sunt?
+                            Similique.quibusdam vel mollitia inventore sequi, quam deleniti quidem sunt?
+                            Similique.quibusdam vel mollitia inventore sequi, quam deleniti quidem sunt? Similique.
+                        </p>
+                        <button class="seeMore-btn hide" id="buttonReadMore" onClick="readMore()">See More</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="accordion" role="tablist" aria-multiselectable="true">
+                <div>
+                    <div class="col-md-12 col-sm-12 visible-xs visible-sm">
+                        <p>
+                            <button data-parent="#accordion" class="btn btn-primary btn-lg btn-block" type="button"
+                                data-toggle="collapse" data-target="#collapse3" aria-expanded="false"
+                                aria-controls="collapse3">
+                                <h3>Title 3</h3>
+                            </button>
+                        </p>
+                    </div>
+                    <div id="collapse3" class="div-collapse collapse col-md-6">
+                        <span class="box-3" onclick="onButtonClick('box03')"></span>
+
+                        <h3 class="header-3">Title 3</h3>
+                        <hr class="line-3">
+                        <p class="text-3  hide" id="box03">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Soluta dignissimos unde nemo sed necessitatibus vitae ipsum, maxime quaerat dolorum
+                            doloremque quibusdam vel mollitia inventore sequi, quam deleniti quidem sunt? Similique.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="col-md-12 col-sm-12 visible-xs visible-sm">
+                        <p>
+                            <button data-parent="#accordion" class="btn btn-primary btn-lg btn-block" type="button"
+                                data-toggle="collapse" data-target="#collapse4" aria-expanded="false"
+                                aria-controls="collapse4">
+                                <h3>Title 4</h3>
+                            </button>
+                        </p>
+                    </div>
+                    <div id="collapse4" class="div-collapse collapse col-md-6">
+                        <span class="box-4" onclick="onButtonClick('box04')"></span>
+                        <h3 class="header-4">Title 4</h3>
+                        <hr class="line-4">
+                        <p class="text-4 hide" id="box04">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Soluta dignissimos unde nemo sed necessitatibus vitae ipsum, maxime quaerat dolorum
+                            doloremque quibusdam vel mollitia inventore sequi, quam deleniti quidem sunt? Similique.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

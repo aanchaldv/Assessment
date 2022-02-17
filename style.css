@@ -1,0 +1,159 @@
+body{
+  background-color: #2b2b2b !important;
+  height: 95vh;
+  width: 98vw;
+  margin-top: 2vw !important;
+}
+#accordion .panel {
+	border:none;
+	-webkit-box-shadow:none; 
+    box-shadow:none;
+}
+.div-collapse {
+  border-top: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.div-collapse {
+  overflow-x: visible;
+  -webkit-overflow-scrolling: touch;
+}
+.header-1{
+  margin-right: 31vw;
+  margin-top: 0vw;
+  color:#db536a;
+}
+.header-2{
+  color:#ffb600;
+}
+.header-3{
+  color:#dedede;
+}
+.header-4{
+  color:#e86153;
+}
+.seeMore-btn{
+  all: unset;
+    cursor: pointer;
+    text-decoration: underline;
+    color: grey;
+}
+
+  @media (min-width: 992px)  {
+ .div-collapse.collapse {
+  display: block !important;
+  height: auto !important;
+  overflow: visible !important;
+  width: 44vw;
+  margin-left: 3vw;
+  color:white
+ }
+ .box-1{
+  height: 13vw;
+  width: 13vw;
+  background-color: #db536a;
+  position: absolute;
+  right: 7vw;
+  top: 3vw;
+}
+.box-2{
+  height: 13vw;
+  width: 13vw;
+  background-color: #ffb600;
+  position: absolute;
+  right: 47vw;
+  top: 3vw;
+}
+.box-3{
+  height: 13vw;
+    width: 13vw;
+    background-color: #dedede;
+    position: absolute;
+    right: 7vw;
+    top: -2.2vw;
+}
+
+.box-4{
+  height: 13vw;
+    width: 13vw;
+    background-color: #e86153;
+    position: absolute;
+    right: 40vw;
+    top: -2.2vw;
+}
+.text-1{
+  overflow-y: scroll;
+  width: 20vw;
+  height: 13vw;
+  margin-top: 3vw;
+}
+.text-2{
+  color: grey;
+    height: 5vw;
+    overflow: hidden;
+    width: 20vw;
+    margin-top: 5vw;
+}
+.text-3{
+  width: 20vw;
+  height: 12vw;
+  margin-top: 12vw;
+}
+.text-4{
+  width: 20vw;
+    height: 12vw;
+    margin-left: 7vw;
+    margin-top: 12vw;
+}
+.hide {
+  display:none;
+}
+.show{
+  display:block;
+}
+#collapse2{
+  position: relative;
+  left: 7vw;
+}
+.header-4{
+  margin-top: 7vw;
+    margin-left: 8vw;
+    position: absolute;
+}
+.header-3{
+  margin-top: 7vw;
+    margin-left: 0vw;
+    position: absolute;
+}
+.header-2{
+  margin-right: 32vw;
+  margin-top: 0vw;
+  position: absolute;
+}
+.line-1{
+  width: 24vw;
+    position: absolute;
+    top: 1.45vw;
+    border-top:  0.15625vw solid #db536a;
+}
+.line-2{
+  right: 24vw;
+    width: 24vw;
+    position: absolute;
+    top: 1.45vw;
+    border-top:  0.15625vw solid #ffb600;
+}
+.line-3{
+  width: 24vw;
+    position: absolute;
+    top: 9.1vw;
+    border-top:  0.15625vw solid #dedede;
+}
+.line-4{
+  width: 24vw;
+    position: absolute;
+    top: 9.1vw;
+    left: 4vw;
+    border-top:  0.15625vw solid #e86153;
+}
+}
